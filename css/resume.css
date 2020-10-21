@@ -1,0 +1,19 @@
+.subtitle {
+    max-width: 600px;
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic;
+    padding: 5px;
+    margin: 0;
+}
+.experienceList {
+    max-width: 600px;
+    text-align: left;
+    font-size: 12pt;
+}
+.experienceList li {
+    max-width: 600px;
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 12pt;
+}
