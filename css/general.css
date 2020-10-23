@@ -3,11 +3,12 @@ body {
     margin: 0;
 }
 header {
-    background-image: url("../images/homeImages/IMG-20200221-WA0001.jpg");
+    background-image: url("../images/homeImages/StandingOverHorseshoeBend.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -81,17 +82,17 @@ footer ul li a {
 }
 h1 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 50pt;
+    font-size: 60px;
     font-weight: 200;
     background-color: #7e7373b7; 
 }
 h2 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 40pt;
+    font-size: 45px;
 }
 h3 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 25pt;
+    font-size: 30px;
     color: white;
     padding-left: 50px;
 }
@@ -102,25 +103,33 @@ h3 a {
 h4 {
     font-family:inherit;
     font-weight: 200;
-    font-size: 30pt;
+    font-size: 35px;
     margin: 0;
     padding: 20px;
-    padding-bottom: 0;
+    padding-bottom: 20;
+    text-align: center;
 }
 h5 {
     display: flex;
     align-items: center;
     font-family:inherit;
     font-weight: 200;
-    font-size: 20pt;
+    font-size: 25px;
     margin: 0;
     padding-top: 20px;
 }
+.h5Left {
+    font-family:inherit;
+    font-weight: 200;
+    font-size: 25px;
+    padding-top: 20px;
+    padding: 5px;
+}
 p {
-    max-width: 600px;
+    max-width: 650px;
     text-align: left;
     padding-bottom: 20px;
-    font-size: 12pt;
+    font-size: 16px;
 }
 .containerColumn {
     display: flex;
@@ -134,11 +143,33 @@ p {
     flex-direction: column;
     text-align: left;
     align-items: left;
+    flex-wrap: wrap;
+    max-width: 650px;
     padding-bottom: 50px;
+}
+.containerColumnLeftTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    padding: 10px;
 }
 .containerRow {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.containerRowWrap {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+figure {
+    margin:3px;
+    margin-bottom: 0;
 }
 
